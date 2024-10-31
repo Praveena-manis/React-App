@@ -1,0 +1,3 @@
+AJAX->(Asynchronous JavaScript and XML)
+->to create web Applications
+->allows to send & receive data from server asynchronous

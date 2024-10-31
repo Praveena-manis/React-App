@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="load()">Click Me</button>
+    <button onclick="load()">Click Me</button>
+    <div id="demo"></div>
+    <script>
+        // function load(){
+        //     fetch('a.txt')
+        //     .then(response=>response.text())
+        //     .then(data=>{
+        //         document.getElementById('demo').innerHTML=data;
+        //     }
+        //     ).catch(console.error());
+        // }
+        async function load(){
+            const response=await fetch('a.txt');
+            const data=await response.text();
+            document.getElementById('demo').innerHTML=data;
+        }
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="userInfo">
+
+    </div>
+    <script src="external.js">
+        
+    </script>
+</body>
+</html>
