@@ -3,6 +3,7 @@ const cors=require('cors');
 const auth=require('./middlewares/auth');
 const test=require('./middlewares/test');
 const app=express();
+const port=5000;
 //third party middleware
 app.use(cors());
 //allowing frontend to access backend
@@ -36,7 +37,7 @@ app.put('/users/:email',(req,res)=>{
         res.status(404).send('user not found');
     }
 })
-app.listen(5000,()=>{
+app.listen(port,()=>{
     console.log("server started");
     
 })
